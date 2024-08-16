@@ -1,0 +1,24 @@
+## Data Source
+
+- [Colon Cancer](http://medicaldecathlon.com/)
+  - Colon Cancer Primaries
+  - 190 3D volumes (126 Training + 64 Testing)
+  - `nii.gz`
+  - [code](colon.py)
+- [Hepatic Vessels](http://medicaldecathlon.com/)
+  - Hepatic vessels and tumour
+  - 443 3D volumes (303 Training + 140 Testing)
+  - `nii.gz`
+  - [code](vessels.py)
+- [COCA- Coronary Calcium and chest CT’s](https://stanfordaimi.azurewebsites.net/)
+  - Contain two datasets:
+    - gated coronary CT DICOM images with corresponding coronary artery calcium segmentations and scores (xml files)
+    - non-gated chest CT DICOM images with coronary artery calcium scores
+  - `dcm`
+  - [code](coca.py)
+- [LIDC-IDRI](https://www.cancerimagingarchive.net/collection/lidc-idri/)
+  - Subjects:   1010 Subjects
+  - Location:   Chest
+  - Data Types: CT, DX, CR
+  - `dcm`
+  - [code](lidc.py)
